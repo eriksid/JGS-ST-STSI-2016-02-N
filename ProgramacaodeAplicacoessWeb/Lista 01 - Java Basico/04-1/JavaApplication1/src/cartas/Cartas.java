@@ -4,9 +4,10 @@ package cartas;
 public class Cartas {
     String cartas;
     int maior = 0;
-    int menor = 14;
+    int menor = 0;
     int contadorMe;
     int contadorMa;
+    String ordem;
     String cartasArray [] = new String [5];
     public String testaOrdem(){
     cartasArray = cartas.split(" ");    
@@ -21,9 +22,16 @@ public class Cartas {
         }
         
     }
-    if (ContadorMa == 5){
+    
+    if (contadorMa == 5){
+        ordem = "C";
         
+    }else if (contadorMe == 5){
+        ordem = "D";
+    }else{
+        ordem = "N";
     }
+    return ordem;
     }
     
 }
