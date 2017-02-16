@@ -4,7 +4,7 @@ package cartas;
 public class Cartas {
     String cartas;
     int maior = 0;
-    int menor = 0;
+    int menor = 14;
     int contadorMe;
     int contadorMa;
     String ordem;
@@ -12,12 +12,12 @@ public class Cartas {
     public String testaOrdem(){
     cartasArray = cartas.split(" ");    
     for (int i = 0; i < 5; i++ ){
-        if (Integer.parseInt(cartasArray[0]) > maior){
-            maior = Integer.parseInt(cartasArray[0]);
+        if (Integer.parseInt(cartasArray[i]) > maior){
+            maior = Integer.parseInt(cartasArray[i]);
             contadorMa ++;
             
-        }else if (Integer.parseInt(cartasArray[0]) < menor){
-            menor = Integer.parseInt(cartasArray[0]);
+        } if (Integer.parseInt(cartasArray[i]) < menor){
+            menor = Integer.parseInt(cartasArray[i]);
             contadorMe ++;
         }
         
