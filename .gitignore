@@ -1,5 +1,8 @@
 .metadata/
 *.class
+*.xml
+*.properties
+*.mf
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -64,3 +67,5 @@ $RECYCLE.BIN/
 *.lnk
 /ProgramacaodeAplicacoessWeb/Lista 01 - Java Basico/04-1/JavaApplication1/nbproject/private/
 /ProgramacaodeAplicacoessWeb/Lista 01 - Java Basico/04-1/JavaApplication1/build/
+/ProgramacaodeAplicacoessWeb/POO/caneta/nbproject/private/
+/ProgramacaodeAplicacoessWeb/POO/caneta/build/
