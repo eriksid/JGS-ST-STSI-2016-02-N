@@ -5,7 +5,7 @@ package caneta;
 public class Caneta {
     String modelo;
     String cor;
-    double ponta;
+    float ponta;
     int carga;
     boolean tampada;
     public void rabiscar (){
