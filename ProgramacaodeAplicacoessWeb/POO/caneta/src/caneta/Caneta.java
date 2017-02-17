@@ -10,16 +10,22 @@ public class Caneta {
     boolean tampada;
     public void rabiscar (){
         if (tampada){
-            System.out.println("Erro!");
+            System.out.println("Erro! não posso rabiscar");
             
         }else {
-            System.out.println("Rabiscando");
+            System.out.println("Estou rabiscando");
         }
     }
     public void tampar(){
-        tampada = true;
+        this.tampada = true;
     }
     public void destampar(){
-        tampada = false;
+        this.tampada = false;
     }
+    public void status(){
+        System.out.println("Uma coaneta " + this.cor);
+        System.out.println(" está tampada? " + this.tampada);
+        System.out.println("a ponta é de: " + this.ponta);
+        System.out.println("com a carga de: " + this.carga + "%" );
+}
 }
